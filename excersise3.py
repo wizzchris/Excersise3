@@ -4,3 +4,5 @@ three = one + two
 six = three * two
 eightteen = 18
 nine = eighteen / two
+
+print (1 == nine % 2)
