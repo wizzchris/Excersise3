@@ -6,3 +6,6 @@ eightteen = 18
 nine = eighteen / two
 
 print (1 == nine % 2)
+
+print (True and 2 == 4//2)
+
