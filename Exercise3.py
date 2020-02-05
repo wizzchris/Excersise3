@@ -14,7 +14,7 @@ print (True or False)
 import random
 
 random_number = random.randint(0,20)
-user_guess = input('Pick a number between 1 and 20?    ')
+user_guess = int(input('Pick a number between 1 and 20?    '))
 
 if user_guess == random_number:
     print ('You got it')
