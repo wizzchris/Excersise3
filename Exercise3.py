@@ -3,7 +3,7 @@ two = 2
 three = one + two
 six = three * two
 eightteen = 18
-nine = eighteen / two
+nine = eightteen / two
 
 print (1 == nine % 2)
 
@@ -20,3 +20,4 @@ if user_guess == random_number:
     print ('You got it')
 else:
     print ('Sorry better luck next time')
+    print('The number was' + ' '  + str(random_number))
